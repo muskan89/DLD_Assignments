@@ -1,0 +1,107 @@
+$date
+	Sun Oct 25 21:32:08 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module cd_tb $end
+$var wire 4 ! tb_outt1 [3:0] $end
+$var wire 1 " tb_out $end
+$var reg 1 # clk $end
+$var reg 1 $ tb_in1 $end
+$var reg 1 % tb_in2 $end
+$var reg 1 & tb_in3 $end
+$var reg 1 ' tb_in4 $end
+$var reg 1 ( tb_in5 $end
+$var reg 4 ) tb_inn1 [3:0] $end
+$scope module logic_tile_ins $end
+$var wire 1 # clock $end
+$var wire 1 $ in1 $end
+$var wire 1 % in2 $end
+$var wire 1 & in3 $end
+$var wire 1 ' in4 $end
+$var wire 1 ( in5 $end
+$var wire 1 " out $end
+$var wire 1 * d $end
+$var reg 33 + mem [32:0] $end
+$var reg 1 , q $end
+$var reg 1 - qbar $end
+$upscope $end
+$scope module switch_box_4x4_ins $end
+$var wire 4 . in [3:0] $end
+$var wire 4 / out [3:0] $end
+$var reg 16 0 configure [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000010000100001 0
+bx /
+bx .
+x-
+x,
+b111111111111111111111111111111110 +
+x*
+bx )
+x(
+x'
+x&
+x%
+x$
+0#
+x"
+bx !
+$end
+#10
+1"
+1,
+0-
+1*
+1(
+0'
+1&
+1%
+1$
+1#
+#20
+0%
+0#
+#30
+1'
+1#
+#40
+0'
+0&
+0#
+#50
+b1001 !
+b1001 /
+b1001 )
+b1001 .
+1#
+#60
+b1101 !
+b1101 /
+b1101 )
+b1101 .
+0#
+#70
+b1011 !
+b1011 /
+b1011 )
+b1011 .
+1#
+#80
+b1111 !
+b1111 /
+b1111 )
+b1111 .
+0#
+#90
+1#
+#100
+0#
